@@ -1,5 +1,9 @@
+.pytest_cache/
 __pycache__/
 venv/
-data/
-output/
+data/*
+output/*
+!data/.gitkeep
+!output/.gitkeep
 errors.txt
+*.pyc
